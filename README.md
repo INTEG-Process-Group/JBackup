@@ -8,7 +8,7 @@ Please go to our website, https://jnior.com, for more information.
 # JBakup
 Program to archive BAK file data. This runs at 15 minute intervals. It identifies new BAK files and accumulates them in a ZIP library located in /flash/baks.
 
-# Running JBakup
+## Running JBakup
 JBakup can be set to run on bootup.  To do this you need to load the application in the /flash/ directory on the JNIOR and create a run key in the registry.
 
 `jr /> reg run/jbakup = jbakup`
