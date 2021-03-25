@@ -13,3 +13,5 @@ JBakup can be set to run on bootup.  To do this you need to load the application
 
 `jr /> reg run/jbakup = jbakup`
 
+## Editing the Application
+You can download the repository and make any changes you like to the code.  The code was originally written in NetBeans.  Any Java IDE should work as long as you can output a `.JAR file` or Java Archive.  The PC will need to have a Library defined for the Janos Runtime library.  In NetBeans the Libraries are defined under `Tools > Libraries`.
